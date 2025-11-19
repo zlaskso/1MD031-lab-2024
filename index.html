@@ -1,1 +1,107 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Le Burger Zantoné</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <section>
+        <h1>Välkommen till Le Burger Zantoné</h1>
+            <h3>Välj burgare</h3>
+                <p>Det är här du väljer</p>
+
+        <div style="display: inline-block"> 
+            <h3>Classic</h3>
+                <img src="public/img/classic.jpg" alt="Classic" width="200">
+                <ul>
+                    <li>Nötfärs?</li>
+                    <li>2 oliver m.m</li>
+                    <li>Bröd!!</li>
+                </ul>
+                 </div>
+
+         <div style="display: inline-block"> 
+            <h3>Chicken Special</h3>
+                <img src="public/img/hamburger.jpeg" alt="Chicken Special" width="200">
+                <ul>
+                    <li>Förmodligen kyckling</li>
+                    <li>Eventuellt vid liv</li>
+                    <li>Kan bitas</li>
+                </ul>
+                 </div>
+                 
+         <div style="display: inline-block"> 
+            <h3>Vegetarianen</h3>
+                <img src="public/img/Vego.jpg" alt="Vegetarianen" width="200">
+                <ul>
+                    <li>Gurka</li>
+                    <li>Lite mer gurka</li>
+                    <li>Avslutande lager gurka</li>
+                </ul>
+                 </div>
+    </section>
+
+        <section>
+            <h2>Customer Information</h2>
+             <p>Det är här du skriver info tack</p>
+            <h3>Delivery information</h3>
+    <p>
+        <label for="fullname">Namn</label><br>
+        <input type="text" id="fullname" name="fullName" required="required" placeholder="För- och efternamn">
+    </p>
+    <p>
+    <label for="street">Gata</label><br>
+    <input type="text" id="street" name="street" required="required" placeholder="Gatunamn">
+    </p>
+    <p>
+       <label for="house">Husnummer</label><br>
+        <input type="number" id="house" name="house" required placeholder="Husnummer">
+
+    </p>
+    <p>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+    </p>
+
+    <h2>Betalningsmetod</h2>
+    <p>
+   <label for="Betalningsmetod">Betalningsmetod</label><be>
+   <select id="Betalningsmetod" name="rcp">
+       <option>VISA</option>
+       <option>Klarna</option>
+       <option>Kontant</option>
+       <option>Mastercard</option>
+       <option>American Express</option>
+   </select>
+</p>
+
+<p>Kön:</p>
+
+<label>
+  <input type="radio" name="gender" value="male">
+  Man
+</label>
+
+<label>
+  <input type="radio" name="gender" value="female">
+  Kvinna
+</label>
+
+<label>
+  <input type="radio" name="gender" value="do-not-wish" checked>
+  Vill ej uppge
+</label>
+
+        </section>
+
+ <button id="submitOrder">
+    <img src="/img/Submit.png" alt="Beställ">
+    Beställ!
+  </button>
+
+        <hr>
+         <footer>
+       <p>Copyright &copy; 2025 Le Burger Zantoné</p>
+          <footer>
+   </body>
+</html>
