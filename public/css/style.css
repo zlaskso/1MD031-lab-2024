@@ -1,64 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
+    font-family: "Times New Roman", serif;
     font-size: 12pt;
+
 }
 
-p {
-    color: red;
+.allergen {
+    font-weight: bold;
 }
 
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
-}
-main, header, footer, nav ul {
-    max-width: 40rem;
-    margin: 0 auto 0 auto;
-}
-main {
-    background-color: bisque;
+
+.Vegetarisk {
+    font-weight: bold;
+    color: green;
 }
 
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
+
+#burgare {
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+}
+
+.burger-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+#info {
+    padding: 10px;
+    margin: 20px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+}
+
+button:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+section {
+    margin: 40px;
+    padding: 20px;
+}
+
+    
+header h1  {
+z-index: 2;
+color: yellow;
+font-size: 48pt;
+text-shadow: 2px 2px 4px #000000;
+
+}
+
 
 header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
-    overflow: hidden;
     width: 100%;
-    height: 200px;
-    opacity: 0.5;
-}
-
-header h1 {
-    width:40rem;
-    margin: 0 auto;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
-
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
-    padding: 0;
-}
-
-nav li {
-    display: block;
-    background-color: grey;
-    padding: 1em;
-}
-
-.Very-good {
-    color: green;
-}
-
-.Master {
-    color: green;
-    font-weight: bold;
+    opacity: 0.9;
+  
 }
