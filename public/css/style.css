@@ -4,7 +4,10 @@ body {
 
 }
 
-.allergen {
+.gluten {
+    font-weight: bold;
+}
+.laktos {
     font-weight: bold;
 }
 

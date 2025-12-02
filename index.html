@@ -1,121 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Le Burger Zantoné</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="public/css/style.css">
-</head>
-
-<body>
-    <header>
-    <h1>Välkommen till Le Burger Zantoné</h1>
-    </header>
-
-    <section id="burgare">
-        <h3>Välj burgare</h3>
-        <p>Välj någon av våra bästsäljande burgare nedan!</p>
-
-        <div class="burger-grid">
-        <div>
-            <h3>Classic</h3>
-            <img src="public/img/classic.jpg" alt="Classic" width="200">
-            <ul>
-                <li>Nötfärs</li>
-                <li>Innehåller <span class="allergen">laktos</span></li>
-                <li>Innehåller <span class="allergen">gluten</span></li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>Chicken Special</h3>
-            <img src="public/img/hamburger.jpeg" alt="Chicken Special" width="200">
-            <ul>
-                <li>Förmodligen kyckling (den bits)</li>
-                <li> <span class="allergen">laktosfri</span></li>
-                <li>Innehåller <span class="allergen">gluten</span></li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>Vegetarianen</h3>
-            <img src="public/img/Vego.jpg" alt="Vegetarianen" width="200">
-            <ul>
-                <li><span class="Vegetarisk">Vegetarisk</span></li>
-                <li>Inlagd gurka</li>
-                <li>Ännu mer gurka</li>
-            </ul>
-        </div>
-        </div>
-    </section>
-
-    <section id="info">
-        <h2>Dina uppgifter</h2>
-        <p>Skriv din information nedan</p>
-        <h3>Leveransinformation</h3>
-        <p>
-            <label for="fullname">Namn</label><br>
-            <input type="text" id="fullname" name="fullName" required="required" placeholder="För- och efternamn">
-        </p>
-        <p>
-            <label for="street">Gata</label><br>
-            <input type="text" id="street" name="street" required="required" placeholder="Gatunamn">
-        </p>
-        <p>
-            <label for="house">Husnummer</label><br>
-            <input type="number" id="house" name="house" required placeholder="Husnummer">
-
-        </p>
-        <p>
-            <label for="email">E-mail</label><br>
-            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-        </p>
-
-        <h2>Betalningsinformation</h2>
-        <p>
-            <be>
-                <select id="Betalningsmetod" name="rcp">
-                    <option>Kreditkort</option>
-                    <option>Debitkort</option>
-                    <option>Klarna</option>
-                    <option>Betala i butik</option>
-                    <option>American Express</option>
-                </select>
-        </p>
-
-        <p>Kön:</p>
-
-        <label>
-            <input type="radio" name="gender" value="male">
-            Man
-        </label>
-
-        <label>
-            <input type="radio" name="gender" value="female">
-            Kvinna
-        </label>
-
-        <label>
-            <input type="radio" name="gender" value="Icke-binär" checked>
-            Icke-binär
-        </label>
-
-        <label>
-            <input type="radio" name="gender" value="Vill ej ange" checked>
-            Vill ej ange
-        </label>
-
-    </section>
-
-    <button id="submitOrder">
-        <img src="/img/Submit.png" alt="Beställ">
-        Beställ!
-    </button>
-
-    <hr>
-    <footer>
-        <p>Copyright &copy; 2025 Le Burger Zantoné</p>
-        <footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
